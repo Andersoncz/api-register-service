@@ -45,7 +45,7 @@ app.post('/servicos', async (req, res) => {
 // Rota para buscar serviços
 app.get('/servicos', async (req, res) => {
   const servicos = await Servico.find().sort({ createdAt: -1 });
-  res.json("hello world");
+  res.json(servicos);
 });
 
 // Rota para deletar serviço
