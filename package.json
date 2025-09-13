@@ -4,9 +4,9 @@
   "description": "",
   "type": "module",
   "engines": {
-    "node": ">=18.0.0"
+    "node": "v22.18.0"
   },
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
