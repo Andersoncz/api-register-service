@@ -1,7 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
-import Servico from '../Service.js';
+import Servico from './Service.js';
 import dotenv from 'dotenv';
 
 dotenv.config();
